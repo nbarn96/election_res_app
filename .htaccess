@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^racedetail-([0-9]+).html$ result.php?race=$1 [L]
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^results-entry/login.html results-entry/login.php [L]
+RewriteRule ^results-entry/([a-z]+).html results-entry/$1.php [L]
